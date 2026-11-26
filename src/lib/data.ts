@@ -475,22 +475,22 @@ export interface TeamMember {
 
 export const team: TeamMember[] = [
   {
-    name: "[Founder Name]",
+    name: "Ebenezer Boakye",
     role: "Founder & CEO",
     bio: "Leads the company's strategic direction, client relationships and technology vision. Brings experience in software engineering and digital transformation across multiple industries.",
-    initials: "FN",
+    initials: "EB",
   },
   {
-    name: "[Technical Lead]",
-    role: "Lead Software Engineer",
+    name: "Godfred Boakye",
+    role: "CTO",
     bio: "Oversees technical architecture, code quality and engineering best practices. Specialises in building scalable, maintainable enterprise systems.",
-    initials: "TL",
+    initials: "GB",
   },
   {
-    name: "[Design Lead]",
+    name: "Loveth Imoniokena",
     role: "Head of Design",
     bio: "Leads user experience research, interface design and design system development. Focused on creating intuitive, accessible digital products.",
-    initials: "DL",
+    initials: "LI",
   },
 ];
 
