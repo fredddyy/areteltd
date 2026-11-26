@@ -10,9 +10,14 @@ import { projects } from "@/lib/data";
 import { WorkFadeUp } from "./animations";
 
 export const metadata: Metadata = {
-  title: "Our Work",
+  title: "Our Work — Software Projects & Case Studies",
   description:
-    "Explore our portfolio of software products, enterprise platforms and AI-powered systems — each built to solve real business challenges.",
+    "Explore Arête LTD's portfolio of enterprise platforms, AI-powered ticketing systems, healthcare management tools and institutional software built for Nigerian organisations.",
+  openGraph: {
+    title: "Our Work — Arête LTD Project Portfolio",
+    description:
+      "Real software projects solving real business challenges — institutional platforms, healthcare systems, AI support tools and more.",
+  },
 };
 
 export default function WorkPage() {

@@ -6,9 +6,14 @@ import { ContactForm } from "./contact-form";
 import { ContactFadeUp } from "./animations";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Contact Us — Discuss Your Project",
   description:
-    "Get in touch to discuss your project, request a quotation or explore how we can help your organisation through technology.",
+    "Get in touch with Arête LTD to discuss your software project, request a quotation or book a free consultation. Based in Lagos, serving organisations across Nigeria.",
+  openGraph: {
+    title: "Contact Arête LTD — Book a Free Call",
+    description:
+      "Tell us about your project and we'll get back to you within one business day. Software development, AI solutions, enterprise platforms.",
+  },
 };
 
 const contactMethods = [

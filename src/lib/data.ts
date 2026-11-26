@@ -23,12 +23,12 @@ import type { LucideIcon } from "lucide-react";
 export const company = {
   name: "Arête LTD",
   tagline: "Building Technology That Moves Businesses Forward.",
-  email: "hello@areteltd.com",
-  phone: "+234 800 000 0000",
+  email: "hello@arete.com.ng",
+  phone: "+234 904 570 1943",
   address: "Lagos, Nigeria",
   linkedin: "https://linkedin.com/company/areteltd",
   twitter: "https://twitter.com/areteltd",
-  whatsapp: "https://wa.me/2348000000000",
+  whatsapp: "https://wa.me/2349045701943",
 };
 
 // ─── Navigation ─────────────────────────────────────────────────

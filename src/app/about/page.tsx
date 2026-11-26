@@ -14,9 +14,14 @@ import { coreValues, team } from "@/lib/data";
 import { AboutFadeUp, AboutStaggerGrid, AboutStaggerItem } from "./animations";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About Us — Our Mission, Team & Approach",
   description:
-    "Learn about our mission, values and approach to building technology solutions that help organisations modernise and grow.",
+    "Arête LTD is a Lagos-based technology company building custom software, AI solutions and enterprise platforms for businesses and institutions across Nigeria.",
+  openGraph: {
+    title: "About Arête LTD — Technology Solutions Company in Nigeria",
+    description:
+      "Learn about our mission, values and collaborative approach to solving real business challenges through software and digital systems.",
+  },
 };
 
 const valueIcons: Record<string, typeof Lightbulb> = {

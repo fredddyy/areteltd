@@ -8,9 +8,14 @@ import { services } from "@/lib/data";
 import { ServicesFadeUp } from "./animations";
 
 export const metadata: Metadata = {
-  title: "Services",
+  title: "Services — Software Development, AI, Cloud & Digital Solutions",
   description:
-    "Explore our full range of technology services — from custom software development and AI automation to cloud solutions and enterprise digital transformation.",
+    "Custom software development, web & mobile apps, AI automation, cloud infrastructure and enterprise digital transformation services for Nigerian businesses.",
+  openGraph: {
+    title: "Our Services — Arête LTD Technology Capabilities",
+    description:
+      "End-to-end technology services: custom software, AI-powered systems, mobile apps, cloud solutions and enterprise digital transformation.",
+  },
 };
 
 export default function ServicesPage() {
