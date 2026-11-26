@@ -34,7 +34,7 @@ export function CoreServices() {
   return (
     <div
       ref={containerRef}
-      style={{ height: `${(services.length + 1) * 100}vh` }}
+      style={{ height: `${services.length * 60 + 40}vh` }}
       className="relative"
     >
       {/* Sticky full-screen viewport */}
