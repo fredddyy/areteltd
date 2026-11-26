@@ -80,10 +80,10 @@ export function Navbar() {
         <div
           className={cn(
             "hidden md:flex items-center gap-0.5 rounded-full border px-1.5 py-1 transition-all duration-500",
-            scrolled
-              ? "bg-white/80 backdrop-blur-xl border-border/50 shadow-[0_2px_12px_rgba(0,0,0,0.04)]"
-              : onDark
-                ? "bg-white/[0.06] backdrop-blur-md border-white/[0.08]"
+            onDark
+              ? "bg-white/[0.06] backdrop-blur-md border-white/[0.08]"
+              : scrolled
+                ? "bg-white/80 backdrop-blur-xl border-border/50 shadow-[0_2px_12px_rgba(0,0,0,0.04)]"
                 : "bg-white/40 backdrop-blur-md border-border/30"
           )}
         >

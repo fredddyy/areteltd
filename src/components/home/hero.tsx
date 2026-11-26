@@ -22,7 +22,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease }}
         >
           <span className="inline-flex items-center gap-2 rounded-full bg-white/60 backdrop-blur-sm border border-border/40 px-4 py-2 text-[0.78rem] font-medium text-foreground/80">
-            <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse" />
+            <span className="h-2 w-2 rounded-full bg-green-500" />
             Accepting new projects
           </span>
         </motion.div>
