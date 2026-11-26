@@ -1,7 +1,36 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx create-next-app@latest:*)"
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest:*)",
+      "Bash(npm run:*)",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); const matches = Object.keys\\(l\\).filter\\(k => k.toLowerCase\\(\\).includes\\('linkedin'\\) || k.toLowerCase\\(\\).includes\\('twitter'\\)\\); console.log\\(matches\\);\")",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); const matches = Object.keys\\(l\\).filter\\(k => k.toLowerCase\\(\\).includes\\('linked'\\) || k.toLowerCase\\(\\).includes\\('x'\\)\\).slice\\(0, 20\\); console.log\\(matches\\);\")",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); ['Target','Eye','Lightbulb','ShieldCheck','Award','ClipboardCheck','Users','RefreshCw'].forEach\\(n => console.log\\(n, typeof l[n]\\)\\);\")",
+      "Bash(npx next:*)",
+      "Bash(curl -s http://localhost:3000/about)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(node -e \"const { cn } = require\\('cn'\\); console.log\\(typeof cn\\);\")",
+      "Bash(node -e ':*)",
+      "Bash(node -e \"const l = require\\('lucide-react'\\); ['Mail','Phone','MapPin','MessageCircle'].forEach\\(n => console.log\\(n, !!l[n]\\)\\);\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/about)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/services)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/work)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/contact)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:3000__TRACKED_VAR__)",
+      "WebFetch(domain:microdose.studio)",
+      "Bash(cp \"c:/Users/GodfredBoakye/Downloads/Group 4.png\" C:/Users/GodfredBoakye/Desktop/pnel/public/logo-icon.png)",
+      "Bash(cp \"c:/Users/GodfredBoakye/Downloads/Group 3 \\(2\\).png\" C:/Users/GodfredBoakye/Desktop/pnel/public/logo-full.png)",
+      "Bash(cp \"c:/Users/GodfredBoakye/Downloads/app imag/ai powerd.webp\" C:/Users/GodfredBoakye/Desktop/pnel/public/projects/ai-support.webp)",
+      "Bash(cp \"c:/Users/GodfredBoakye/Downloads/app imag/instit.webp\" C:/Users/GodfredBoakye/Desktop/pnel/public/projects/institutional.webp)",
+      "Bash(cp \"c:/Users/GodfredBoakye/Downloads/app imag/health care.webp\" C:/Users/GodfredBoakye/Desktop/pnel/public/projects/healthcare.webp)",
+      "Bash(vercel --yes --prod)",
+      "Bash(vercel domains:*)",
+      "Bash(vercel alias:*)",
+      "Bash(vercel project:*)",
+      "Bash(npx vercel:*)"
     ]
   }
 }
