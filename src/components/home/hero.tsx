@@ -15,18 +15,6 @@ export function Hero() {
       <div className="absolute inset-0 grain" aria-hidden="true" />
 
       <div className="relative mx-auto max-w-[1400px] px-5 sm:px-8 lg:px-12 py-32 md:py-40 w-full">
-        {/* Accepting badge — like Microdose */}
-        <motion.div
-          initial={{ opacity: 0, y: 20, filter: "blur(8px)" }}
-          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-          transition={{ duration: 0.8, delay: 0.2, ease }}
-        >
-          <span className="inline-flex items-center gap-2 rounded-full bg-white/60 backdrop-blur-sm border border-border/40 px-4 py-2 text-[0.78rem] font-medium text-foreground/80">
-            <span className="h-2 w-2 rounded-full bg-green-500" />
-            Accepting new projects
-          </span>
-        </motion.div>
-
         {/* Subtitle */}
         <motion.p
           initial={{ opacity: 0, y: 24, filter: "blur(8px)" }}
