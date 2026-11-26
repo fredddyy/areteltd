@@ -51,7 +51,11 @@ export function Navbar() {
       initial={{ opacity: 0, y: -20, filter: "blur(6px)" }}
       animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       transition={{ duration: 0.8, delay: 0.05, ease: blurFadeEase }}
-      className="fixed top-0 z-50 w-full"
+      className={cn(
+        "fixed top-0 z-50 w-full transition-colors duration-300",
+        scrolled && !onDark && "bg-white/70 backdrop-blur-xl",
+        scrolled && onDark && "bg-navy/70 backdrop-blur-xl"
+      )}
     >
       <div className="mx-auto flex h-16 max-w-[1400px] items-center justify-between px-5 sm:px-8 lg:px-12 md:h-20">
         {/* Logo */}
